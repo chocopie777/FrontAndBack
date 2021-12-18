@@ -1,0 +1,386 @@
+.header{
+    background-color: black;
+}
+{
+  margin: 0;
+  padding: 0;
+}
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+.logg{
+    font-size: 21px;
+    color: red;
+}
+.header{
+    max-width: 100%;
+    width: 100%;
+    height: 186px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    color: white;
+}    
+
+.headerPlan{
+    font-size: 21px;
+    font-family: MontserratLight;
+    width: 100%;
+    max-width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.Menu{
+    width: 44px;
+    height: 32px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    pointer-events: none;
+}
+.MenuOpen1{
+    width: 41px;
+    height: 3px;
+    background-color: white;
+}
+.MenuOpen2{
+    width: 32px;
+    height: 3px;
+    background-color: white;
+}
+.MenuOpen3{
+    width: 41px;
+    height: 3px;
+    background-color: white;
+}
+.dropbtn {
+    background: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 100%;
+    top: 30%;
+}
+.show {display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+.forflex{
+    justify-content: space-between;
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+.logo{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.logostyle{
+    font-size: 18px;
+    width: 100%;
+    height: 21px;
+}
+.logotip{
+    width: 100%;
+    max-width: 280px;
+    height: 65px;
+    border-radius: 15px;
+}
+.List li{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.obertka2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+section p{
+    max-width: 1100px;
+    margin-top: 10px;
+}
+.l2{
+    margin-top: 20px;
+}
+section 
+.List{
+    width: 100%;
+    height: 332px;
+    background-color: black;
+    margin-top: 90px;
+}
+.List h1{
+    color: white;
+    font-size: 34px;
+    padding-top: 20px;
+    margin: 0px 0px 0 30px;
+}
+.List ul{
+    flex-direction: column;
+    margin: 0px;
+}
+.List ul a{
+    margin: 0px;
+}
+table {
+   border: 1px solid black;
+   border-collapse: collapse;
+   margin-left: 270px;
+}
+th {
+   border: 1px solid black;
+}
+td {
+    text-align: center;
+   border: 1px solid #393939;
+      width: 300px;
+   height: 61px;
+   color: black;
+}
+.qw1, .qw2, .qw3, .qw4, .qw5, .qw6{
+    min-width: 350px;
+    height: 620px;
+    margin: 10px;
+    border: 3px solid black;
+    background: linear-gradient(0deg, black,#343434, #A8ACA7);
+}
+.qw7{
+    max-width: 600px;
+    height: 551px;
+    margin-left: 260px;
+    margin-bottom: 60px;
+    border: 3px solid black;
+    background: linear-gradient(0deg, black,#343434, #A8ACA7);
+}
+.Chart{
+    margin-left: 0px;
+}
+.Chart h1{
+    margin-left: 17px;
+}
+.Chart li{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.convert1, .convert2{
+    display: flex;
+    margin: 10px;
+}
+.l1{
+    margin-top: 40px;
+    max-width: 920px;
+    height: 100%;
+}
+span{
+    font-weight: 600;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 100px;
+}
+.gg{
+    font-family: 'Times New Roman', Times, serif;
+}
+.conc{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.Opl{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.group{
+    width: 100%;
+    width: 920px;
+    height: 143px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.kontakti{
+    color: white;
+    width: 100%;
+    max-width: 280px;
+    height: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.oplata{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 100%;
+    max-width: 280px;
+    height: 86px;
+
+}
+.sposobi{
+    width: 100%;
+    margin-top: 10px;
+    max-width: 265px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.visa{
+    width: 100%;
+    max-width: 70px;
+    height: 40px;
+}
+.kivi{
+    width: 100%;
+    max-width: 70px;
+    height: 40px;
+}
+.yandex{
+    width: 100%;
+    max-width: 70px;
+    height: 40px;
+}
+.call{
+    width: 100%;
+    max-width: 23px;
+    height: 22px;
+}
+
+
+@media(max-width: 1240px){
+.qw7{
+        margin-left: 0px;
+        width: 100%;
+        height: 551px;
+        margin-bottom: 60px;
+        border: 3px solid black;
+        background: linear-gradient(0deg, black,#343434, #A8ACA7);
+    }
+.qw1, .qw2, .qw3, .qw4, .qw5, .qw6{
+    width: 100%;
+    min-width: 350px;
+    height: 620px;
+    margin: 10px;
+    border: 3px solid black;
+    background: linear-gradient(0deg, black,#343434, #A8ACA7);
+}
+.conver3{
+    display: flex;
+    justify-content: center;
+}
+.convert1, .convert2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.odin {
+    background-attachment: fixed;
+    width: 100%;
+    height: 1352px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer {
+
+    background-color: black;
+    width: 100%;
+    height: 355px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+@media(max-width:790px){
+    .odin{
+        height: 2000px;
+    }
+   
+    .sposobi{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .visa{
+        margin-top: 6px;
+    }
+    .kivi{
+        margin-top: 6px;
+    }
+    .yandex{
+        margin-top: 6px;
+    }  
+    .Jhin{
+        height: 1200px;
+    }
+}
+@media(max-width:420px){
+.odin{
+    height: 2200px;
+}
+
+.dva{
+    height: 900px;
+}
+.oplata{
+    margin-left: 50px;
+}
+.pot{
+height: auto;
+}
+}
+}
